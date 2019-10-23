@@ -4,4 +4,5 @@ const web3 = new Web3(rpcURL)
 
 const account = web3.eth.accounts.create()
 
-console.log(account)
+console.log('address :', account.address)
+console.log('pricateKey :', account.privateKey)
